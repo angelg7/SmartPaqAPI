@@ -6,6 +6,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace SmartPaqAPI.Controllers
 {
+    [Authorize]
     [Route("api/employee")]
     [ApiController]
     public class EmployeeController : ControllerBase
